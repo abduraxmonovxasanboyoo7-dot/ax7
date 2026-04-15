@@ -4,7 +4,7 @@
 # # # # # # # # c=int(input("c=")) 
 # # # # # # # # s = c<b<a 
 # # # # # # # # print(s) 
-
+print('hello')
 # # # # # #8xato
 # # # # # # # a=int(input("a="))
 # # # # # # # b=int(input("b=")) 
