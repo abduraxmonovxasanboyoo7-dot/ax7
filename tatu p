@@ -1,0 +1,177 @@
+# a=int(input("a="))
+# if a>0: 
+#     a+=1
+# print(a)
+#2masala
+# a=int(input("a="))
+# if a>0:
+#     a+=1
+# else:
+#     a-=2
+# print(a)  
+ #3masala 
+# a=int(input("a="))
+# if a>0:
+#     a+=1
+# elif a<0:
+#     a-=2
+# elif a==0:
+#     a=10 
+# print(a)    
+#4masala 
+# a=int(input("a="))
+# b=int(input("b="))
+# c=int(input("c="))
+# x=0
+# if a>0:
+#     x+=1
+# if b>0:
+#     x+=1
+# if c>0:
+#     x+=1
+# print(x)            
+#7masala 
+# a=int(input("a="))
+# b=int(input("b="))
+# if a<b:
+#     print(1)
+# elif a>b:
+#     print(2)    
+# else:
+#     print(0)
+ #9masala 
+# a=5
+# b=10
+# if b<a:
+#     b,a=a,b 
+#     print("a=",a, "b=",b) 
+#11masala 
+# a=8
+# b=7
+# if a==b:
+#     a=0
+#     b=0
+# elif 
+
+#13m
+# a=10
+# b=8
+# c=6
+# if (b < a < c) or (c < a < b):
+#     print("O'rtacha son:", a)
+# elif (a < b < c) or (c < b < a):
+#     print("O'rtacha son:", b)
+# else:
+#     print("O'rtacha son:", c)
+
+#15m
+# a=10
+# b=8
+# c=9
+# if a<=b and a<=c: 
+#   print(b,c)
+# elif b<=a and b<=c: 
+#    print(a,c)
+# else: 
+#     print(a,b)   
+
+#17m
+# a=int(input("a="))
+# b=int(input("b="))
+# c=int(input("c="))
+# if (a>b>c) or (a<b<c):
+#    a=a*2
+#    b=b*2
+#    c=c*2
+#    print(a,b,c)
+# else:
+#    a=-a
+#    b=-b
+#    c=-c
+#    print(a,b,c)
+
+
+# #19m 
+# a=int(input("a="))
+# b=int(input("b="))
+# c=int(input("c="))
+# d=int(input("d="))
+# if (a==b==c):   
+#     print(4) 
+# elif (a==b==d):
+#     print(3)
+# elif (a==c==d):
+#     print(2)
+# else:
+#     print(1) 
+
+# 20m
+# a=1
+# b=2
+# c=3
+# l_ab=abs(a-b)
+# l_ac=abs(a-c)
+# if l_ab>l_ac:
+#     print("yaqin nuqta:" ,c, "masofa:",l_ac)
+# else:
+#     print("yaqin nuqta:" ,b, "masofa:",l_ab)    
+      
+#22m
+# x = int(input("x = "))
+# y = int(input("y = "))
+
+# if x > 0 and y > 0:
+#     print("1-chorak")
+# elif x < 0 and y > 0:
+#     print("2-chorak")
+# elif x < 0 and y < 0:
+#     print("3-chorak")
+# else:
+#     print("4-chorak")
+
+#24m
+# import math
+
+# x = float(input("x = "))
+
+# if x > 0:
+#     
+#     y = 2 * math.sin(x)
+# else:
+#     
+#     y = 6 - x
+
+# print("Natija y =", y) 
+
+# #26m
+# x= float(input("x="))
+# if x<=0:
+#    y= -x 
+# elif 0<x<2:
+#     y= -x*x
+# else :
+#     y=4
+# print("y=",y)
+ 
+# # if26m
+# x = float(input("x = "))
+
+# if x <= 0:
+#     y = -x
+# elif 0 < x < 2:
+#     y = x**2  # x ning kvadrati
+# else:
+#     # Bu qism x >= 2 bo'lganda o'z-o'zidan ishlaydi
+#     y = 4
+
+# print("y =", y) 
+
+# if28
+# yil = int(input("Yilni kiriting = "))
+
+# if (yil % 4 == 0 and yil % 100 != 0) or (yil % 400 == 0):
+#     kun = 366
+# else:
+#     kun = 365
+
+# print(kun, "kun") 
